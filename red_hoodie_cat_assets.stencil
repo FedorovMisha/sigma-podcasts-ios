@@ -1,0 +1,47 @@
+/// Обрабатывает xcassets с картинками / цветами
+/// Создан для работы со SwiftUI
+
+// swiftlint:disable all
+
+#if os(iOS)
+import SwiftUI
+#endif
+
+{% macro caseBlock assets %}
+{% for asset in assets %}
+{% if asset.type == "color" %}
+    static let {{ asset.name | swiftIdentifier: "pretty"| snakeToCamelCase | lowerFirstLetter }} = color(named: "{{ asset.name }}")
+{% elif asset.type == "image" %}
+    static let {{ asset.name | swiftIdentifier: "pretty"| snakeToCamelCase | lowerFirstLetter }} = image(named: "{{ asset.name }}")
+{% elif asset.items and asset.isNamespaced == "true" %}
+    enum {{ asset.name | swiftIdentifier: "pretty": snakeToCamelCase | upperFirstLetter }} {
+{% filter indent:4%}{% call caseBlock asset.items%}{% endfilter %}
+    }
+    
+{% elif asset.items %}
+{% call caseBlock asset.items %}
+{% endif %}
+{% endfor %}
+{% endmacro %}
+{% macro catalogsBlock catalogs %}
+
+{% for catalog in catalogs %}
+    
+enum {{ catalog.name | swiftIdentifier: "pretty": snakeToCamelCase | upperFirstLetter }} {
+{% call caseBlock catalog.assets%}
+}
+
+{% endfor %}
+{% endmacro %}
+
+public enum Assets {
+{% filter indent:4%}{% call catalogsBlock catalogs %}{% endfilter %}
+}
+
+private func image(named: String) -> Image {
+    return Image(named)
+}
+
+private func color(named: String) -> Color {
+    return Color(named)
+}
