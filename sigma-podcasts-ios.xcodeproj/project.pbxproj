@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B62077E2916E169008DB76B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B62077D2916E169008DB76B /* Images.xcassets */; };
+		4B6207812916E25F008DB76B /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6207802916E25F008DB76B /* Assets.swift */; };
+		4B6207852916E48F008DB76B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B6207872916E48F008DB76B /* Localizable.strings */; };
+		4B62078C2916E52D008DB76B /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B62078B2916E52D008DB76B /* Strings.swift */; };
 		4BBEA627290FE99200F6991C /* sigma_podcasts_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEA626290FE99200F6991C /* sigma_podcasts_iosApp.swift */; };
 		4BBEA629290FE99200F6991C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEA628290FE99200F6991C /* ContentView.swift */; };
-		4BBEA62B290FE99500F6991C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBEA62A290FE99500F6991C /* Assets.xcassets */; };
+		4BBEA62B290FE99500F6991C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBEA62A290FE99500F6991C /* Colors.xcassets */; };
 		4BBEA62E290FE99500F6991C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBEA62D290FE99500F6991C /* Preview Assets.xcassets */; };
 		4BBEA638290FE99500F6991C /* sigma_podcasts_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEA637290FE99500F6991C /* sigma_podcasts_iosTests.swift */; };
 		4BBEA642290FE99500F6991C /* sigma_podcasts_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEA641290FE99500F6991C /* sigma_podcasts_iosUITests.swift */; };
@@ -34,10 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B62077D2916E169008DB76B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4B6207802916E25F008DB76B /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		4B6207862916E48F008DB76B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4B6207882916E493008DB76B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4B62078B2916E52D008DB76B /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		4BBEA623290FE99200F6991C /* sigma-podcasts-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sigma-podcasts-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBEA626290FE99200F6991C /* sigma_podcasts_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sigma_podcasts_iosApp.swift; sourceTree = "<group>"; };
 		4BBEA628290FE99200F6991C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4BBEA62A290FE99500F6991C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BBEA62A290FE99500F6991C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		4BBEA62D290FE99500F6991C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4BBEA633290FE99500F6991C /* sigma-podcasts-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sigma-podcasts-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBEA637290FE99500F6991C /* sigma_podcasts_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sigma_podcasts_iosTests.swift; sourceTree = "<group>"; };
@@ -71,6 +80,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B62077B2916E121008DB76B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B6207822916E46E008DB76B /* Localizable */,
+				4BBEA62A290FE99500F6991C /* Colors.xcassets */,
+				4B62077D2916E169008DB76B /* Images.xcassets */,
+				4BBEA62C290FE99500F6991C /* Preview Content */,
+				4B62077C2916E139008DB76B /* Generated */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4B62077C2916E139008DB76B /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				4B62078B2916E52D008DB76B /* Strings.swift */,
+				4B6207802916E25F008DB76B /* Assets.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		4B6207822916E46E008DB76B /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				4B6207872916E48F008DB76B /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
 		4BBEA61A290FE99200F6991C = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +132,9 @@
 		4BBEA625290FE99200F6991C /* sigma-podcasts-ios */ = {
 			isa = PBXGroup;
 			children = (
+				4B62077B2916E121008DB76B /* Resources */,
 				4BBEA626290FE99200F6991C /* sigma_podcasts_iosApp.swift */,
 				4BBEA628290FE99200F6991C /* ContentView.swift */,
-				4BBEA62A290FE99500F6991C /* Assets.xcassets */,
-				4BBEA62C290FE99500F6991C /* Preview Content */,
 			);
 			path = "sigma-podcasts-ios";
 			sourceTree = "<group>";
@@ -134,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BBEA647290FE99500F6991C /* Build configuration list for PBXNativeTarget "sigma-podcasts-ios" */;
 			buildPhases = (
+				4B62077A2916D7FE008DB76B /* SwiftGen */,
 				4BBEA61F290FE99200F6991C /* Sources */,
 				4BBEA620290FE99200F6991C /* Frameworks */,
 				4BBEA621290FE99200F6991C /* Resources */,
@@ -212,7 +250,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				ru,
 			);
 			mainGroup = 4BBEA61A290FE99200F6991C;
 			productRefGroup = 4BBEA624290FE99200F6991C /* Products */;
@@ -231,8 +269,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B62077E2916E169008DB76B /* Images.xcassets in Resources */,
+				4B6207852916E48F008DB76B /* Localizable.strings in Resources */,
 				4BBEA62E290FE99500F6991C /* Preview Assets.xcassets in Resources */,
-				4BBEA62B290FE99500F6991C /* Assets.xcassets in Resources */,
+				4BBEA62B290FE99500F6991C /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +292,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B62077A2916D7FE008DB76B /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh swiftgen_run.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4BBEA61F290FE99200F6991C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -259,6 +321,8 @@
 			files = (
 				4BBEA629290FE99200F6991C /* ContentView.swift in Sources */,
 				4BBEA627290FE99200F6991C /* sigma_podcasts_iosApp.swift in Sources */,
+				4B62078C2916E52D008DB76B /* Strings.swift in Sources */,
+				4B6207812916E25F008DB76B /* Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +357,18 @@
 			targetProxy = 4BBEA63E290FE99500F6991C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B6207872916E48F008DB76B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B6207862916E48F008DB76B /* en */,
+				4B6207882916E493008DB76B /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4BBEA645290FE99500F6991C /* Debug */ = {
@@ -416,7 +492,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"sigma-podcasts-ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"sigma-podcasts-ios/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -444,7 +520,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"sigma-podcasts-ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"sigma-podcasts-ios/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
