@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B62077E2916E169008DB76B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B62077D2916E169008DB76B /* Images.xcassets */; };
 		4B6207812916E25F008DB76B /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6207802916E25F008DB76B /* Assets.swift */; };
 		4B6207852916E48F008DB76B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B6207872916E48F008DB76B /* Localizable.strings */; };
 		4B62078C2916E52D008DB76B /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B62078B2916E52D008DB76B /* Strings.swift */; };
@@ -20,6 +19,7 @@
 		4BBEA644290FE99500F6991C /* sigma_podcasts_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEA643290FE99500F6991C /* sigma_podcasts_iosUITestsLaunchTests.swift */; };
 		4BDA62822917952D00DA9141 /* PermissionsSwiftUIMusic in Frameworks */ = {isa = PBXBuildFile; productRef = 4BDA62812917952D00DA9141 /* PermissionsSwiftUIMusic */; };
 		4BDA62842917952D00DA9141 /* PermissionsSwiftUINotification in Frameworks */ = {isa = PBXBuildFile; productRef = 4BDA62832917952D00DA9141 /* PermissionsSwiftUINotification */; };
+		4BF422F529191F89004EE255 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF422F429191F89004EE255 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4B62077D2916E169008DB76B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4B6207802916E25F008DB76B /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		4B6207862916E48F008DB76B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4B6207882916E493008DB76B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -55,6 +54,7 @@
 		4BBEA63D290FE99500F6991C /* sigma-podcasts-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sigma-podcasts-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBEA641290FE99500F6991C /* sigma_podcasts_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sigma_podcasts_iosUITests.swift; sourceTree = "<group>"; };
 		4BBEA643290FE99500F6991C /* sigma_podcasts_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sigma_podcasts_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BF422F429191F89004EE255 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 			children = (
 				4B6207822916E46E008DB76B /* Localizable */,
 				4BBEA62A290FE99500F6991C /* Colors.xcassets */,
-				4B62077D2916E169008DB76B /* Images.xcassets */,
+				4BF422F429191F89004EE255 /* Images.xcassets */,
 				4BBEA62C290FE99500F6991C /* Preview Content */,
 				4B62077C2916E139008DB76B /* Generated */,
 			);
@@ -280,8 +280,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B62077E2916E169008DB76B /* Images.xcassets in Resources */,
 				4B6207852916E48F008DB76B /* Localizable.strings in Resources */,
+				4BF422F529191F89004EE255 /* Images.xcassets in Resources */,
 				4BBEA62E290FE99500F6991C /* Preview Assets.xcassets in Resources */,
 				4BBEA62B290FE99500F6991C /* Colors.xcassets in Resources */,
 			);
