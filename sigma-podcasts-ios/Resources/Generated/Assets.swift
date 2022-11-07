@@ -11,9 +11,9 @@ import SwiftUI
 public enum Assets {
     enum Colors {
         static let accentColor = color(named: "AccentColor")
-        static let background = color(named: "background")
     }
     enum Images {
+        static let redHoodieHat = image(named: "red_hoodie_hat")
     }
     enum Preview_Assets {
     }
