@@ -5,3 +5,15 @@
   Created by Misha Fedorov on 05.11.2022.
   
 */
+
+"logo.createdBy" = "Created by";
+
+
+// Onboarding View
+"onboarding.skip" = "Skip";
+"onboarding.pages.first.title" = "Podcasts!";
+"onboarding.pages.first.subtitle" = "Listen Your Podcasts\nAnywhere, Anytime";
+"onboarding.pages.second.title" = "Music!";
+"onboarding.pages.second.subtitle" = "Listen awesome music!";
+"onboarding.pages.third.title" = "Learing!";
+"onboarding.pages.third.subtitle" = "Let's learn with\npodcasts!";

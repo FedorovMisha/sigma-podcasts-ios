@@ -10,12 +10,38 @@ import Foundation
 // swiftlint:disable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
 internal enum L10n {
-  internal enum Hello {
+  internal enum Logo {
     /// Localizable.strings
     ///   sigma-podcasts-ios
     /// 
     ///   Created by Misha Fedorov on 05.11.2022.
-    internal static let world = L10n.tr("Localizable", "hello.world", fallback: "Hello world!")
+    internal static let createdBy = L10n.tr("Localizable", "logo.createdBy", fallback: "Created by")
+  }
+  internal enum Onboarding {
+    /// Skip
+    internal static let skip = L10n.tr("Localizable", "onboarding.skip", fallback: "Skip")
+    internal enum Pages {
+      internal enum First {
+        /// Listen Your Podcasts
+        /// Anywhere, Anytime
+        internal static let subtitle = L10n.tr("Localizable", "onboarding.pages.first.subtitle", fallback: "Listen Your Podcasts\nAnywhere, Anytime")
+        /// Podcasts!
+        internal static let title = L10n.tr("Localizable", "onboarding.pages.first.title", fallback: "Podcasts!")
+      }
+      internal enum Second {
+        /// Listen awesome music!
+        internal static let subtitle = L10n.tr("Localizable", "onboarding.pages.second.subtitle", fallback: "Listen awesome music!")
+        /// Music!
+        internal static let title = L10n.tr("Localizable", "onboarding.pages.second.title", fallback: "Music!")
+      }
+      internal enum Third {
+        /// Let's learn with
+        /// podcasts!
+        internal static let subtitle = L10n.tr("Localizable", "onboarding.pages.third.subtitle", fallback: "Let's learn with\npodcasts!")
+        /// Learing!
+        internal static let title = L10n.tr("Localizable", "onboarding.pages.third.title", fallback: "Learing!")
+      }
+    }
   }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length

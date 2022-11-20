@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B1E9B1529293E0600F1A623 /* Satoshi-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B1E9B0B29293E0600F1A623 /* Satoshi-Bold.otf */; };
+		4B1E9B1629293E0600F1A623 /* Satoshi-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B1E9B0C29293E0600F1A623 /* Satoshi-Italic.otf */; };
+		4B1E9B1729293E0600F1A623 /* Satoshi-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B1E9B0D29293E0600F1A623 /* Satoshi-Black.otf */; };
+		4B1E9B1829293E0600F1A623 /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B1E9B0E29293E0600F1A623 /* Satoshi-Regular.otf */; };
+		4B1E9B1929293E0600F1A623 /* Satoshi-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B1E9B0F29293E0600F1A623 /* Satoshi-BoldItalic.otf */; };
+		4B1E9B1A29293E0600F1A623 /* Satoshi-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B1E9B1029293E0600F1A623 /* Satoshi-Light.otf */; };
+		4B1E9B1B29293E0600F1A623 /* Satoshi-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B1E9B1129293E0600F1A623 /* Satoshi-LightItalic.otf */; };
+		4B1E9B1C29293E0600F1A623 /* Satoshi-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B1E9B1229293E0600F1A623 /* Satoshi-BlackItalic.otf */; };
+		4B1E9B1D29293E0600F1A623 /* Satoshi-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B1E9B1329293E0600F1A623 /* Satoshi-MediumItalic.otf */; };
+		4B1E9B1E29293E0600F1A623 /* Satoshi-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B1E9B1429293E0600F1A623 /* Satoshi-Medium.otf */; };
+		4B1E9B212929400C00F1A623 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1E9B202929400C00F1A623 /* Fonts.swift */; };
+		4B1E9B26292A868C00F1A623 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1E9B25292A868C00F1A623 /* LogoView.swift */; };
+		4B1E9B28292A995900F1A623 /* OnboardingButtonSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1E9B27292A995900F1A623 /* OnboardingButtonSectionView.swift */; };
+		4B22A6D12926235D002376A9 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 4B22A6D02926235D002376A9 /* ComposableArchitecture */; };
+		4B22A6DB29262A19002376A9 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B22A6DA29262A19002376A9 /* Account.swift */; };
+		4B22A6DE29262A72002376A9 /* AccountEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B22A6DD29262A72002376A9 /* AccountEntity.swift */; };
+		4B22A6E129262BA3002376A9 /* OAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B22A6E029262BA3002376A9 /* OAuthModel.swift */; };
+		4B22A6E429262DA2002376A9 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 4B22A6E329262DA2002376A9 /* Logging */; };
+		4B22A6E629262E17002376A9 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B22A6E529262E17002376A9 /* Log.swift */; };
+		4B40E3182927940400EA2842 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B40E3172927940400EA2842 /* OnboardingView.swift */; };
+		4B40E31E292794B200EA2842 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B40E31D292794B200EA2842 /* Onboarding.swift */; };
+		4B5C24AA29279F9600A24F06 /* OnboardingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5C24A929279F9600A24F06 /* OnboardingStore.swift */; };
 		4B6207812916E25F008DB76B /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6207802916E25F008DB76B /* Assets.swift */; };
 		4B6207852916E48F008DB76B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B6207872916E48F008DB76B /* Localizable.strings */; };
 		4B62078C2916E52D008DB76B /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B62078B2916E52D008DB76B /* Strings.swift */; };
@@ -19,6 +41,8 @@
 		4BBEA644290FE99500F6991C /* sigma_podcasts_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEA643290FE99500F6991C /* sigma_podcasts_iosUITestsLaunchTests.swift */; };
 		4BDA62822917952D00DA9141 /* PermissionsSwiftUIMusic in Frameworks */ = {isa = PBXBuildFile; productRef = 4BDA62812917952D00DA9141 /* PermissionsSwiftUIMusic */; };
 		4BDA62842917952D00DA9141 /* PermissionsSwiftUINotification in Frameworks */ = {isa = PBXBuildFile; productRef = 4BDA62832917952D00DA9141 /* PermissionsSwiftUINotification */; };
+		4BDF0C8C29281A6D004845DD /* OnboardingCurvePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF0C8B29281A6D004845DD /* OnboardingCurvePath.swift */; };
+		4BDF0C8F29281B36004845DD /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF0C8E29281B36004845DD /* View+Extensions.swift */; };
 		4BF422F929192427004EE255 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF422F829192427004EE255 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +64,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B1E9B0B29293E0600F1A623 /* Satoshi-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Bold.otf"; sourceTree = "<group>"; };
+		4B1E9B0C29293E0600F1A623 /* Satoshi-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Italic.otf"; sourceTree = "<group>"; };
+		4B1E9B0D29293E0600F1A623 /* Satoshi-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Black.otf"; sourceTree = "<group>"; };
+		4B1E9B0E29293E0600F1A623 /* Satoshi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.otf"; sourceTree = "<group>"; };
+		4B1E9B0F29293E0600F1A623 /* Satoshi-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BoldItalic.otf"; sourceTree = "<group>"; };
+		4B1E9B1029293E0600F1A623 /* Satoshi-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Light.otf"; sourceTree = "<group>"; };
+		4B1E9B1129293E0600F1A623 /* Satoshi-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-LightItalic.otf"; sourceTree = "<group>"; };
+		4B1E9B1229293E0600F1A623 /* Satoshi-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BlackItalic.otf"; sourceTree = "<group>"; };
+		4B1E9B1329293E0600F1A623 /* Satoshi-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-MediumItalic.otf"; sourceTree = "<group>"; };
+		4B1E9B1429293E0600F1A623 /* Satoshi-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Medium.otf"; sourceTree = "<group>"; };
+		4B1E9B1F29293E7000F1A623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4B1E9B202929400C00F1A623 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		4B1E9B25292A868C00F1A623 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		4B1E9B27292A995900F1A623 /* OnboardingButtonSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingButtonSectionView.swift; sourceTree = "<group>"; };
+		4B22A6DA29262A19002376A9 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		4B22A6DD29262A72002376A9 /* AccountEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountEntity.swift; sourceTree = "<group>"; };
+		4B22A6E029262BA3002376A9 /* OAuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthModel.swift; sourceTree = "<group>"; };
+		4B22A6E529262E17002376A9 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		4B40E3172927940400EA2842 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		4B40E31D292794B200EA2842 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		4B5C24A929279F9600A24F06 /* OnboardingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStore.swift; sourceTree = "<group>"; };
 		4B6207802916E25F008DB76B /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		4B6207862916E48F008DB76B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4B6207882916E493008DB76B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -54,6 +99,8 @@
 		4BBEA63D290FE99500F6991C /* sigma-podcasts-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sigma-podcasts-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBEA641290FE99500F6991C /* sigma_podcasts_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sigma_podcasts_iosUITests.swift; sourceTree = "<group>"; };
 		4BBEA643290FE99500F6991C /* sigma_podcasts_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sigma_podcasts_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BDF0C8B29281A6D004845DD /* OnboardingCurvePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCurvePath.swift; sourceTree = "<group>"; };
+		4BDF0C8E29281B36004845DD /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		4BF422F829192427004EE255 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +111,8 @@
 			files = (
 				4BDA62842917952D00DA9141 /* PermissionsSwiftUINotification in Frameworks */,
 				4BDA62822917952D00DA9141 /* PermissionsSwiftUIMusic in Frameworks */,
+				4B22A6E429262DA2002376A9 /* Logging in Frameworks */,
+				4B22A6D12926235D002376A9 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,9 +133,125 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B16ACBC2927B1F20001D877 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4BDF0C8B29281A6D004845DD /* OnboardingCurvePath.swift */,
+				4B1E9B27292A995900F1A623 /* OnboardingButtonSectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4B1E9B0A29293E0600F1A623 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4B1E9B0B29293E0600F1A623 /* Satoshi-Bold.otf */,
+				4B1E9B0C29293E0600F1A623 /* Satoshi-Italic.otf */,
+				4B1E9B0D29293E0600F1A623 /* Satoshi-Black.otf */,
+				4B1E9B0E29293E0600F1A623 /* Satoshi-Regular.otf */,
+				4B1E9B0F29293E0600F1A623 /* Satoshi-BoldItalic.otf */,
+				4B1E9B1029293E0600F1A623 /* Satoshi-Light.otf */,
+				4B1E9B1129293E0600F1A623 /* Satoshi-LightItalic.otf */,
+				4B1E9B1229293E0600F1A623 /* Satoshi-BlackItalic.otf */,
+				4B1E9B1329293E0600F1A623 /* Satoshi-MediumItalic.otf */,
+				4B1E9B1429293E0600F1A623 /* Satoshi-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4B1E9B22292A867300F1A623 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4B1E9B25292A868C00F1A623 /* LogoView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4B22A6D2292623E9002376A9 /* User Stories */ = {
+			isa = PBXGroup;
+			children = (
+				4B1E9B22292A867300F1A623 /* Common */,
+				4B22A6D6292624B6002376A9 /* Unauthorized area */,
+			);
+			path = "User Stories";
+			sourceTree = "<group>";
+		};
+		4B22A6D429262405002376A9 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				4BBEA628290FE99200F6991C /* ContentView.swift */,
+				4BBEA626290FE99200F6991C /* sigma_podcasts_iosApp.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		4B22A6D529262434002376A9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4BDF0C8D29281B2C004845DD /* Extensions */,
+				4B22A6DF29262AF6002376A9 /* Models */,
+				4B22A6DC29262A68002376A9 /* Entities */,
+				4B22A6D7292628D3002376A9 /* Global */,
+				4B22A6E529262E17002376A9 /* Log.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4B22A6D6292624B6002376A9 /* Unauthorized area */ = {
+			isa = PBXGroup;
+			children = (
+				4B40E3192927940C00EA2842 /* Onboarding */,
+			);
+			path = "Unauthorized area";
+			sourceTree = "<group>";
+		};
+		4B22A6D7292628D3002376A9 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				4B22A6DA29262A19002376A9 /* Account.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		4B22A6DC29262A68002376A9 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				4B22A6DD29262A72002376A9 /* AccountEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		4B22A6DF29262AF6002376A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B22A6E029262BA3002376A9 /* OAuthModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4B40E3192927940C00EA2842 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				4B16ACBC2927B1F20001D877 /* Views */,
+				4B40E31A2927949600EA2842 /* Flux */,
+				4B40E3172927940400EA2842 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4B40E31A2927949600EA2842 /* Flux */ = {
+			isa = PBXGroup;
+			children = (
+				4B40E31D292794B200EA2842 /* Onboarding.swift */,
+				4B5C24A929279F9600A24F06 /* OnboardingStore.swift */,
+			);
+			path = Flux;
+			sourceTree = "<group>";
+		};
 		4B62077B2916E121008DB76B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4B1E9B0A29293E0600F1A623 /* Fonts */,
 				4B6207822916E46E008DB76B /* Localizable */,
 				4BBEA62A290FE99500F6991C /* Colors.xcassets */,
 				4BBEA62C290FE99500F6991C /* Preview Content */,
@@ -101,6 +266,7 @@
 			children = (
 				4B62078B2916E52D008DB76B /* Strings.swift */,
 				4B6207802916E25F008DB76B /* Assets.swift */,
+				4B1E9B202929400C00F1A623 /* Fonts.swift */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -136,9 +302,11 @@
 		4BBEA625290FE99200F6991C /* sigma-podcasts-ios */ = {
 			isa = PBXGroup;
 			children = (
+				4B1E9B1F29293E7000F1A623 /* Info.plist */,
+				4B22A6D529262434002376A9 /* Core */,
+				4B22A6D429262405002376A9 /* Launch */,
+				4B22A6D2292623E9002376A9 /* User Stories */,
 				4B62077B2916E121008DB76B /* Resources */,
-				4BBEA626290FE99200F6991C /* sigma_podcasts_iosApp.swift */,
-				4BBEA628290FE99200F6991C /* ContentView.swift */,
 			);
 			path = "sigma-podcasts-ios";
 			sourceTree = "<group>";
@@ -168,6 +336,14 @@
 			path = "sigma-podcasts-iosUITests";
 			sourceTree = "<group>";
 		};
+		4BDF0C8D29281B2C004845DD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4BDF0C8E29281B36004845DD /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,6 +364,8 @@
 			packageProductDependencies = (
 				4BDA62812917952D00DA9141 /* PermissionsSwiftUIMusic */,
 				4BDA62832917952D00DA9141 /* PermissionsSwiftUINotification */,
+				4B22A6D02926235D002376A9 /* ComposableArchitecture */,
+				4B22A6E329262DA2002376A9 /* Logging */,
 			);
 			productName = "sigma-podcasts-ios";
 			productReference = 4BBEA623290FE99200F6991C /* sigma-podcasts-ios.app */;
@@ -263,6 +441,8 @@
 			mainGroup = 4BBEA61A290FE99200F6991C;
 			packageReferences = (
 				4BDA62802917952D00DA9141 /* XCRemoteSwiftPackageReference "PermissionsSwiftUI" */,
+				4B22A6CF2926235D002376A9 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				4B22A6E229262DA2002376A9 /* XCRemoteSwiftPackageReference "swift-log" */,
 			);
 			productRefGroup = 4BBEA624290FE99200F6991C /* Products */;
 			projectDirPath = "";
@@ -281,9 +461,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B6207852916E48F008DB76B /* Localizable.strings in Resources */,
+				4B1E9B1C29293E0600F1A623 /* Satoshi-BlackItalic.otf in Resources */,
+				4B1E9B1E29293E0600F1A623 /* Satoshi-Medium.otf in Resources */,
 				4BF422F929192427004EE255 /* Images.xcassets in Resources */,
+				4B1E9B1929293E0600F1A623 /* Satoshi-BoldItalic.otf in Resources */,
+				4B1E9B1B29293E0600F1A623 /* Satoshi-LightItalic.otf in Resources */,
 				4BBEA62E290FE99500F6991C /* Preview Assets.xcassets in Resources */,
+				4B1E9B1729293E0600F1A623 /* Satoshi-Black.otf in Resources */,
+				4B1E9B1829293E0600F1A623 /* Satoshi-Regular.otf in Resources */,
+				4B1E9B1529293E0600F1A623 /* Satoshi-Bold.otf in Resources */,
 				4BBEA62B290FE99500F6991C /* Colors.xcassets in Resources */,
+				4B1E9B1A29293E0600F1A623 /* Satoshi-Light.otf in Resources */,
+				4B1E9B1629293E0600F1A623 /* Satoshi-Italic.otf in Resources */,
+				4B1E9B1D29293E0600F1A623 /* Satoshi-MediumItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,9 +520,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1E9B212929400C00F1A623 /* Fonts.swift in Sources */,
+				4B22A6E129262BA3002376A9 /* OAuthModel.swift in Sources */,
+				4B22A6DB29262A19002376A9 /* Account.swift in Sources */,
+				4B1E9B28292A995900F1A623 /* OnboardingButtonSectionView.swift in Sources */,
+				4B40E31E292794B200EA2842 /* Onboarding.swift in Sources */,
 				4BBEA629290FE99200F6991C /* ContentView.swift in Sources */,
+				4B40E3182927940400EA2842 /* OnboardingView.swift in Sources */,
+				4BDF0C8C29281A6D004845DD /* OnboardingCurvePath.swift in Sources */,
 				4BBEA627290FE99200F6991C /* sigma_podcasts_iosApp.swift in Sources */,
+				4B5C24AA29279F9600A24F06 /* OnboardingStore.swift in Sources */,
 				4B62078C2916E52D008DB76B /* Strings.swift in Sources */,
+				4B1E9B26292A868C00F1A623 /* LogoView.swift in Sources */,
+				4BDF0C8F29281B36004845DD /* View+Extensions.swift in Sources */,
+				4B22A6DE29262A72002376A9 /* AccountEntity.swift in Sources */,
+				4B22A6E629262E17002376A9 /* Log.swift in Sources */,
 				4B6207812916E25F008DB76B /* Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,23 +703,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"sigma-podcasts-ios/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "sigma-podcasts-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sigma-podcasts-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -529,23 +736,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"sigma-podcasts-ios/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "sigma-podcasts-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sigma-podcasts-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -666,6 +878,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		4B22A6CF2926235D002376A9 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.6;
+			};
+		};
+		4B22A6E229262DA2002376A9 /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		4BDA62802917952D00DA9141 /* XCRemoteSwiftPackageReference "PermissionsSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jevonmao/PermissionsSwiftUI";
@@ -677,6 +905,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		4B22A6D02926235D002376A9 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B22A6CF2926235D002376A9 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		4B22A6E329262DA2002376A9 /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B22A6E229262DA2002376A9 /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
+		};
 		4BDA62812917952D00DA9141 /* PermissionsSwiftUIMusic */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4BDA62802917952D00DA9141 /* XCRemoteSwiftPackageReference "PermissionsSwiftUI" */;
