@@ -10,9 +10,9 @@ import SwiftUI
 {% macro caseBlock assets %}
 {% for asset in assets %}
 {% if asset.type == "color" %}
-    static let {{ asset.name | swiftIdentifier: "pretty"| snakeToCamelCase | lowerFirstLetter }} = color(named: "{{ asset.name }}")
+    static let {{ asset.name | swiftIdentifier: "pretty"| snakeToCamelCase | lowerFirstLetter }} = color(named: "{{ asset.value }}")
 {% elif asset.type == "image" %}
-    static let {{ asset.name | swiftIdentifier: "pretty"| snakeToCamelCase | lowerFirstLetter }} = image(named: "{{ asset.name }}")
+    static let {{ asset.name | swiftIdentifier: "pretty"| snakeToCamelCase | lowerFirstLetter }} = image(named: "{{ asset.value }}")
 {% elif asset.items and asset.isNamespaced == "true" %}
     enum {{ asset.name | swiftIdentifier: "pretty": snakeToCamelCase | upperFirstLetter }} {
 {% filter indent:4%}{% call caseBlock asset.items%}{% endfilter %}
